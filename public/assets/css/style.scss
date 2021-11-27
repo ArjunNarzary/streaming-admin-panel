@@ -1,0 +1,44 @@
+
+
+html{
+    min-height: 100vh;
+}
+body{
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_adds{
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    background-color: rgb(44, 46, 46);
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+    i{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: red;
+        cursor: pointer;
+        &:hover{
+            font-size: 1.2em;
+        }
+    }
+    .info p{
+        line-height: 1.2em;
+        margin-bottom: 0;
+    }
+}
+
+.genrebox{
+    position: relative;
+    i{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+    }
+}

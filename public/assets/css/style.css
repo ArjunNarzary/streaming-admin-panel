@@ -1,0 +1,54 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.movie_adds {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  background-color: #2c2e2e;
+  color: #fff;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+
+.movie_adds i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+}
+
+.movie_adds i:hover {
+  font-size: 1.2em;
+}
+
+.movie_adds .info p {
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+.genrebox {
+  position: relative;
+}
+
+.genrebox i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
